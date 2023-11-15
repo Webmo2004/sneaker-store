@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.296);
+}
+
+.nav_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 580px;
+}
+
+.nav_wrap ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.563);
+    font-size: 17px;
+}
+
+.profile_img{
+    width: 55px;
+    height: 55px;
+    border: 3px solid rgb(130, 126, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.profile_img .img{
+    width: 45px;
+    height: 45px;
+    background-image: url(IMG/image-avatar.png);
+    background-size: cover;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main_wrapper{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.photos{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photos .first{
+    background-image: url(IMG/image-product-1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 400px;
+    height: 450px;
+    border-radius: 7px;
+}
+
+.photos .options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:400px ;
+}
+
+.img-2{
+    background-image: url(IMG/image-product-1.jpg);
+    background-size:cover ;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    opacity: .5;
+    border: 3px solid orange;
+}
+.img-3{
+    background-image: url(IMG/image-product-2.jpg);
+    background-size:cover ;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.img-4{
+    background-image: url(IMG/image-product-3.jpg);
+    background-size:cover ;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.img-5{
+    background-image: url(IMG/image-product-4.jpg);
+    background-size:cover ;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+main .info{
+    height: 450px;
+}
+
+main .info h3{
+    font-size: 15px;
+    color: rgb(255, 166, 0);
+    letter-spacing: 2px;
+}
+
+main .info .title p{
+    font-size: 35px;
+    font-weight: bold;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.info .des {
+    color: rgba(73, 74, 76, 0.864);
+    line-height: 27px;
+    width: 500px;
+    height: 130px;
+    margin-top: 25px;
+}
+
+.cost {
+    display: flex;
+    align-items: center;
+}
+
+.cost span:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.cost span:nth-child(2){
+    padding: 7px 5px 7px 7px;
+    background-color: rgba(255, 166, 0, 0.241);
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(255, 169, 10);
+}
+
+.info .after{
+    color: rgba(90, 92, 94, 0.621);
+}
+
+.bttns{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.bttns button:nth-child(1){
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    overflow: hidden;
+}
+
+
+.bttns button span:nth-child(1){
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    line-height: 48px;
+}
+
+.bttns button span:nth-child(1):hover{
+    background-color:rgba(98, 103, 107, 0.507);
+}
+
+.bttns button span:nth-child(2){
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    line-height: 48px;
+}
+
+.bttns button span:nth-child(2):hover{
+    background-color:rgba(98, 103, 107, 0.507);
+}
+
+
+.bttns button span:nth-child(3){
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    line-height: 48px;
+}
+
+.bttns button span:nth-child(3):hover{
+    background-color: rgba(98, 103, 107, 0.507);
+}
+
+.bttns button:nth-child(2){
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0px 10px 20px rgba(255, 166, 0, 0.358);
+    transition: .4s ease-in-out;
+}
+
+.bttns button:nth-child(2):hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(255, 166, 0, 0.773);
+}
